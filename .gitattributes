@@ -1,0 +1,10 @@
+# Default behavior
+# Language detection rules
+*.woff2 binary
+* text=auto eol=lf
+*.htm linguist-vendored
+dist/* linguist-vendored
+*.sh text eol=lf
+
+Cargo.lock linguist-generated
+src/**/*.js linguist-detectable
